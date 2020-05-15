@@ -4,9 +4,11 @@
 #include <string>
 #include <vector>
 
+#include "linux_parser.h"
 #include "process.h"
 #include "processor.h"
 #include "system.h"
+#include "all_processes.h"
 
 using std::set;
 using std::size_t;
@@ -20,7 +22,7 @@ Processor& System::Cpu() { return cpu_; }
 vector<Process>& System::Processes() { return processes_; }
 
 // TODO: Return the system's kernel identifier (string)
-std::string System::Kernel() { return string(); }
+std::string System::Kernel() { return string(LinuxParser::Kernel()); }
 
 // TODO: Return the system's memory utilization
 float System::MemoryUtilization() { return 0.0; }
