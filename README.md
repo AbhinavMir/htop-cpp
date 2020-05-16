@@ -1,7 +1,5 @@
 ## HTOP replica in C++ 
 
-![System Monitor](images/monitor.png)
-
 Basically a system monitor in C++ for Linux, like HTOP. I used nCurses, Parser and a few extra external libraries to get this running, you should already have these in your system. 
 ## ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) is a library that facilitates text-based graphical output in the terminal. This project relies on ncurses for display output.
