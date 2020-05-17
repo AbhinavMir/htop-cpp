@@ -48,12 +48,12 @@ string Process::Command() {
     if(cmd.size() > maxSize) {
        cmd.resize(maxSize - 3);
        cmd = cmd + "..."; }    
-                                               
+
   return cmd;
  }
 
 // TODO: Return this process's memory utilization
-string Process::Ram() { return string(); }
+string Process::Ram() { -; }
 
 // TODO: Return the user (name) that generated this process
 string Process::User() { return string(); }

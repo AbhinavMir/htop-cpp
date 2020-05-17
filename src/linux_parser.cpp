@@ -68,8 +68,6 @@ vector<int> LinuxParser::Pids() {
 
 // TODO: Read and return the system memory utilization
 float LinuxParser::MemoryUtilization() { 
-  
-  float memTotal = 
 
  }
 
