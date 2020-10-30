@@ -22,3 +22,7 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 3. Run the resulting executable: `./build/monitor`
 
 4. Add binaries to path if you want, and then you can access via `monitor`
+
+____
+
+Done as practice for Udacity Course
